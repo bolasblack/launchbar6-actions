@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.c4605.LaunchBar.action.SendToCommandC</string>
+	<key>CFBundleName</key>
+	<string>Send By Command-C</string>
+	<key>CFBundleVersion</key>
+	<string>0.0.1</string>
+	<key>LBDebugLogEnabled</key>
+	<true/>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>c4605</string>
+		<key>LBEmail</key>
+		<string>bolasblack@gmail.com</string>
+		<key>LBSummary</key>
+		<string>Send Content Or Clipboard To Mobile</string>
+		<key>LBTwitter</key>
+		<string>@c4605</string>
+		<key>LBWebsite</key>
+		<string>http://plafer.info</string>
+	</dict>
+	<key>LBRequiredApplication</key>
+	<string>it.danilotorrisi.command-c-osx</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBLiveFeedbackEnabled</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.js</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
