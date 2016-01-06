@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>icon.png</string>
+	<string>Switch.png</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.c4605.LaunchBar.action.KillProcess</string>
+	<string>org.c4605.LaunchBar.action.SwitchApplication</string>
 	<key>CFBundleName</key>
-	<string>Kill Process</string>
+	<string>Switch Application</string>
 	<key>CFBundleVersion</key>
 	<string>0.0.1</string>
 	<key>LBDescription</key>
@@ -17,7 +17,7 @@
 		<key>LBEmail</key>
 		<string>bolasblack@gmail.com</string>
 		<key>LBSummary</key>
-		<string>Easily find and kill misbehaving processes. Port from https://github.com/nathangreenstein/alfred-process-killer</string>
+		<string>Fuzzy Switch Opened Applications</string>
 		<key>LBTwitter</key>
 		<string>@c4605</string>
 		<key>LBWebsite</key>
