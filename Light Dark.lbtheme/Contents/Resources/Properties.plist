@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>parent</key>
+	<string>at.obdev.LaunchBar.theme.ElCapitanDark</string>
+	<key>bgColor</key>
+	<string>#101010b7</string>
+	<key>borderColor</key>
+	<string>#ffffff14</string>
+  <key>windowBackgroundColor</key>
+	<string>@bgColor</string>
+	<key>windowBackgroundColorIsDark</key>
+	<true/>
+	<key>windowBackgroundBlurRadius</key>
+	<integer>0</integer>
+	<key>windowDefaultWidth</key>
+	<integer>600</integer>
+  <key>windowCornerRadius</key>
+	<integer>0</integer>
+	<key>windowShadowStyle</key>
+	<integer>0</integer>
+  <key>itemListGridLineGradient</key>
+	<dict>
+		<key>0.0</key>
+		<string>@borderColor</string>
+		<key>1.0</key>
+		<string>@borderColor</string>
+	</dict>
+  <key>itemListSelectionHighlightColor</key>
+	<string>#0d0d0d40</string>
+  <key>itemListSeparatorLowerLineThickness</key>
+	<integer>1</integer>
+  <key>itemListSeparatorUpperLineThickness</key>
+	<integer>0</integer>
+	<key>itemListSeparatorLowerLineColor</key>
+	<string>@borderColor</string>
+</dict>
+</plist>
