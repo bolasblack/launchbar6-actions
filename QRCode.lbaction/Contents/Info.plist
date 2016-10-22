@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>QRCode.png</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.c4605.LaunchBar.action.QRCode</string>
+	<key>CFBundleName</key>
+	<string>QRCode</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>c4605</string>
+		<key>LBEmail</key>
+		<string>bolasblack@gmail.com</string>
+		<key>LBTwitter</key>
+		<string>@c4605</string>
+		<key>LBWebsiteURL</key>
+		<string>http://plafer.info</string>
+	</dict>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.rb</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
